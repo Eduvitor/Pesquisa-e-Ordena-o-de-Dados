@@ -1,0 +1,20 @@
+questão 0: O código funciona corretamente onde é passado um vetor de determinado número de posições e depois ele é ordenado. Alterando o 
+valor de n para 100000, acontece que o programa nem roda, muito provavelmente porque o algortimo de ordenação implantado e de ordem quadratica
+o que faz com que ele tenha um tempo de execução e de uso de memoria altissimo e provavelmente está estourando o que foi definido antes para ele.
+
+
+questão 1: A  alocação dinamica não é necessaria para valores pequenos tipo 100, mas quando vamos para valores maiores a alocação se 
+torna inevitavel para evitar problemas de estouro de pilha.
+
+questão 2: Em C um vetor é basicamente um ponteiro disfarçado, o primeiro endereço de memoria aponta para a primeira posição do vetor 
+e assim por diante, usando &vet, estamos dizendo que queremos o endereço de vet, mas podemos usar apenas vet que já cumprirá a função
+de passar o endereço da primeira posição dele.
+
+questão 3: Para começar trocariamos o tipo de paramentro para **var, e na chamada da função passariamos o nosso vetor como &vet.
+
+questão 4: 
+
+questão 5: Os paramentros da função swap são dois ponteiros, onde é realizado a troca dos valores que eles estão apontando.
+
+questão 6: São valores que estão sendo trocados, onde a variavel temp armazena temporariamente o valor a ser trocado, até dar continuidade 
+ao ciclo.
